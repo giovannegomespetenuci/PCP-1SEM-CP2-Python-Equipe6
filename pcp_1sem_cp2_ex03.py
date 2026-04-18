@@ -1,4 +1,4 @@
-#03.
+#03
 
 #Solicitação das notas do 1ªSemestre:
 CheckPoint1 = float(input("Digite a nota do Checkpoint 1:"))

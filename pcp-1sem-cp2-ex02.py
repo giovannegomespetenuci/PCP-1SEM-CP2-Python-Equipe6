@@ -1,4 +1,4 @@
-#02.
+#02
 
 # entrada de dados
 a = float(input("Insira o primeiro lado do triângulo: "))
