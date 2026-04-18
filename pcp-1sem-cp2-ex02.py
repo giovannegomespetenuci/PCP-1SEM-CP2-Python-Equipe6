@@ -1,3 +1,5 @@
+#02.
+
 # entrada de dados
 a = float(input("Insira o primeiro lado do triângulo: "))
 b = float(input("Insira o segundo lado do triângulo: "))
