@@ -51,7 +51,8 @@ total   = calcular_total(parcela, Numero_Parcelas)
 juros   = calcular_juros(total, Valor_Emprestimo)
 
 # Saída
-print("\nEmpréstimo aprovado")
+print() # para pular linha
+print("Empréstimo aprovado")
 print(f"Nome do cliente:      {Nome_Cliente}")
 print(f"Valor financiado:     R$ {Valor_Emprestimo:.2f}")
 print(f"Taxa de juros:        {taxa * 100:.0f}% ao mês")
