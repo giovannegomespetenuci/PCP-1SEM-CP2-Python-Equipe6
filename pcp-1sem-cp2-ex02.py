@@ -31,4 +31,4 @@ else:
         class2 = "e equilátero"
     elif a == b or b == c or a == c:
         class2 = "e isósceles"
-print(class1, class2)
+    print(class1, class2)
