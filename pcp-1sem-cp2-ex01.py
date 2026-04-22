@@ -3,9 +3,9 @@
 import sys
 
 # entrada de dados
-estado = int(input("Insira o estado de origem do caminhão: "))
+estado = int(input("Insira o código do estado de origem do caminhão (de 1 a 5): "))
 peso_ton = int(input("Insira o peso do caminhão (em toneladas): "))
-cod_carga = int(input("Insira o código da carga: "))
+cod_carga = int(input("Insira o código da carga (de 10 a 40): "))
 
 peso_kg = peso_ton * 1000 # conversão de toneladas para quilos
 
@@ -37,11 +37,11 @@ match estado:
         sys.exit()
 
 # saída de dados, exposição do resultados
-print(f"O preço da carga é de R${preco_carga}")
+print(f"O preço da carga é de R${preco_carga:,.2f}")
 if imposto == "Isento":
     print("Sua carga está isenta do imposto")
-    print(f"O preço total da sua carga é de R${preco_carga}")
+    print(f"O preço total da sua carga é de R${preco_carga:,.2f}")
 else:
-    print(f"O total do imposto é de R${imposto}")
+    print(f"O total do imposto é de R${imposto:,.2f}")
     valor_total = preco_carga + imposto
-    print(f"O preço total da sua carga é de R${valor_total}")
+    print(f"O preço total da sua carga é de R${valor_total:,.2f}")
