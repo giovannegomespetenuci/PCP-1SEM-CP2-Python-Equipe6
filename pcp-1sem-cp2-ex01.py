@@ -1,4 +1,4 @@
-#01
+#Exercício 1 CP2 - PCP
 
 import sys
 
@@ -37,6 +37,7 @@ match estado:
         sys.exit()
 
 # saída de dados, exposição do resultados
+print(f"O peso da carga é de {peso_kg:,} kg")
 print(f"O preço da carga é de R${preco_carga:,.2f}")
 if imposto == "Isento":
     print("Sua carga está isenta do imposto")

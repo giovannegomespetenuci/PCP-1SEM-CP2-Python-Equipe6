@@ -1,4 +1,4 @@
-#02
+#Exercício 2 CP2 - PCP
 
 # entrada de dados
 a = float(input("Insira o primeiro lado do triângulo: "))
@@ -17,18 +17,18 @@ if b < c:
 class1 = ""
 class2 = ""
 if a >= (b+c):
-    print("Não forma um triângulo")
+    print("NAO FORMA TRIANGULO")
 else:
     # classificação em relação aos ângulos
     if a**2 == (b**2 + c**2):
-        class1 = "Triângulo retângulo"
+        class1 = "TRIANGULO RETANGULO"
     elif a**2 > (b**2 + c**2):
-        class1 = "Triângulo obtusângulo"
+        class1 = "TRIANGULO OBTUSANGULO"
     elif a**2 < (b**2 + c**2):
-        class1 = "Triângulo acutângulo"
+        class1 = "TRIANGULO ACUTANGULO"
     # classificação em relação aos lados
     if a == b == c:
-        class2 = "e equilátero"
+        class2 = "E EQUILATERO"
     elif a == b or b == c or a == c:
-        class2 = "e isósceles"
+        class2 = "E ISOSCELES"
     print(class1, class2)

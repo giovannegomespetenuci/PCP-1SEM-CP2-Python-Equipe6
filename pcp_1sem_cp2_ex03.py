@@ -1,4 +1,4 @@
-#03
+#Exercício 3 CP2 - PCP
 
 #Solicitação das notas do 1ªSemestre:
 CheckPoint1 = float(input("Digite a nota do Checkpoint 1:"))
