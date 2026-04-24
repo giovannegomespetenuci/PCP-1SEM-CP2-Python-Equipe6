@@ -1,4 +1,4 @@
-#Exercício 4 CP2 - PCP
+#Exercício 4 CP2 - PCP:
 
 def calcular_horas_extras(salario_base, horas):
     valor_total = salario_base * 0.015 * horas

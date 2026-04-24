@@ -1,4 +1,4 @@
-#Exercício 2 CP2 - PCP
+#Exercício 2 CP2 - PCP:
 
 # entrada de dados
 a = float(input("Insira o primeiro lado do triângulo: "))

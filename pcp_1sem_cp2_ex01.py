@@ -1,4 +1,4 @@
-#Exercício 1 CP2 - PCP
+#Exercício 1 CP2 - PCP:
 
 import sys
 
